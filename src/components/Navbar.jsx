@@ -12,7 +12,7 @@ const Navbar = () => (
   <div className="nav-container">
     <div className="logo-container">
       <Avatar src={icon} size="large" className="brand" />
-      <Typography.Title level={2} className="logo">
+      <Typography.Title level={3} className="logo">
         <Link to="/">Crypto Scope</Link>
       </Typography.Title>
     </div>
