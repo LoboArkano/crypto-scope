@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 // eslint-disable-next-line import/prefer-default-export
 export { default as Cryptocurrencies } from './Cryptocurrencies';
 export { default as CryptoDetails } from './CryptoDetails';
