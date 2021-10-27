@@ -17,6 +17,18 @@ a:hover {
   color: var(--pink) !important;
 }
 
+.flex {
+  display: flex;
+}
+
+.align-i-center {
+  align-items: center;
+}
+
+.align-s-center {
+  align-self: center;
+}
+
 .app {
   display: flex;
   overflow: hidden;
@@ -317,7 +329,8 @@ a:hover {
   width: 70%;
 }
 
-.news-image-container .img {
+.news-image-container .news-img {
+  margin-left: 3%;
   width: 100px;
   height: 100px;
 }
@@ -333,7 +346,10 @@ a:hover {
 }
 
 .provider-name {
+  display: block;
   margin-left: 10px;
+  width: 75%;
+  height: max-content;
 }
 
 .chart-header {
