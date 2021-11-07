@@ -42,7 +42,12 @@ const Navbar = () => {
         </Button>
       </div>
       {activeMenu && (
-        <Menu theme="dark" onClick={() => setActiveMenu(!activeMenu)}>
+        <Menu
+          theme="dark"
+          onClick={() => {
+            if (screenSize < 800) setActiveMenu(!activeMenu);
+          }}
+        >
           <Menu.Item icon={<HomeOutlined />} key="home">
             <Link to="/">Home</Link>
           </Menu.Item>
