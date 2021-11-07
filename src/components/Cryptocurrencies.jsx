@@ -19,7 +19,7 @@ const Cryptocurrencies = ({ simplified }) => {
     ));
 
     setCrypto(filteredData);
-  }, [searchTerm]);
+  }, [cryptosList, searchTerm]);
 
   if (isFetching) return '...Loading';
 
