@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spin } from 'ant-design';
+import { Spin } from 'antd';
 
 const Loader = () => (
   <div className="loader">
