@@ -4,7 +4,7 @@ All the information you need about cryptocurrencies in one place. Crypto Scope p
 
 ## Live Demo
 
-[Netlify]()
+[Netlify](https://crypto-scope.netlify.app/)
 
 ## Screenshots
 
