@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Crypto Scope
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+All the information you need about cryptocurrencies in one place. Crypto Scope provides the latest data of the top 100 cryptocurrencies.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+[Netlify]()
 
-### `yarn start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image](https://user-images.githubusercontent.com/33432289/143280866-41292aef-b7fb-4157-a9dd-95ea112cb5cb.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/33432289/143280643-6c8e0531-1afb-408e-b546-a3105e2af46b.png)
 
-### `yarn test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
 
-### `yarn build`
+- Redux Toolkit
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Javascript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Ant Design
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- CSS
 
-### `yarn eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To get a local copy up and running follow these simple example steps.
+```
+    git clone git@github.com:LoboArkano/crypto-scope.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- npm
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Node.js
 
-## Learn More
+### Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install dependencies with:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+    npm install
+```
 
-### Code Splitting
+Start app with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+    npm start
+```
 
-### Analyzing the Bundle Size
+Run test with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+    npm test
+```
 
-### Making a Progressive Web App
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👤 **Roberto Perez Jimenez**
 
-### Advanced Configuration
+- Github: [@LoboArkano](https://github.com/LoboArkano)
+- Twitter: [@LoboArcano92](https://twitter.com/LoboArcano92)
+- Linkedin: [linkedin](https://www.linkedin.com/in/jose-roberto-perez-jimenez/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contributing
 
-### Deployment
+Contributions, issues and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Feel free to check the [issues page](https://github.com/LoboArkano/crypto-scope/issues).
 
-### `yarn build` fails to minify
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+JavaScript Mastery
+
+## Show your support
+
+Give a ⭐️ if you like this project!

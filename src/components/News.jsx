@@ -6,6 +6,7 @@ import {
 import moment from 'moment';
 import { useGetNewsQuery } from '../services/newsApi';
 import { useGetCryptosQuery } from '../services/cryptoApi';
+import Loader from './Loader';
 
 const { Title, Text } = Typography;
 const { Option } = Select;
@@ -18,7 +19,7 @@ const News = ({ simplified }) => {
   });
   const { data } = useGetCryptosQuery(100);
 
-  if (isFetching) return '...Loading';
+  if (isFetching) return <Loader />;
 
   return (
     <>
